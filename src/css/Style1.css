@@ -67,7 +67,7 @@
     -webkit-backdrop-filter: blur(10px) !important;
     backdrop-filter: blur(10px) !important;
     /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) !important;*/
-    width: 50% !important;
+    width: 70% !important;
     /*height: 5% !important;*/
     margin: auto !important;
     text-align: center !important;
@@ -78,11 +78,6 @@
         padding: 10px !important;
         text-decoration: none !important;
     }
-@media only screen and (max-width: 600px) {
-    .card1 a{
-        font-size:25px;
-    }
-}
         .card1 a:hover {
             border: 1px solid black !important;
             box-shadow: 2px 2px 5px 1px !important;
