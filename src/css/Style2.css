@@ -1127,6 +1127,21 @@
         width: 100%;
     }
 }
+@media only screen and (max-width: 600px) {
+    .card1 {
+        width: 100%;
+    }
+
+        .card1 a {
+            font-size: 250%;
+            padding: 5px;
+            color: silver
+        }
+
+            .card1 a:hover {
+                color: lightsalmon;
+            }
+}
 
 /*Advisory Members
 @media only screen and (max-width: 450px)
