@@ -1127,7 +1127,8 @@
         width: 100%;
     }
 }
-@media only screen and (max-width: 600px) and (min-width:180px) and (max-width:679px) {
+
+@media only screen and (max-width: 600px) {
     .card1 {
         width: 100%;
     }
@@ -1148,8 +1149,43 @@
     th {
         display: none;
     }*/
+    li::before {
+        content: '▶';
     }
 
+    table caption {
+        display: block;
+    }
+}
+
+@media(min-width: 600px) {
+    td:nth-of-type(odd):before,
+    td:nth-of-type(even):before,
+    td:nth-of-type(odd):after,
+    td:nth-of-type(even):after {
+        content: "";
+    }
+
+    thead tr {
+        position: static;
+    }
+
+    thead, tbody {
+        display: table-row-group;
+    }
+
+    th, td {
+        display: table-cell;
+    }
+
+    tr {
+        display: table-row;
+    }
+
+    table {
+        display: table;
+    }
+}
 
 /*Advisory Members
 @media only screen and (max-width: 450px)

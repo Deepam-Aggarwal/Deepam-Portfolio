@@ -62,24 +62,157 @@
         background-color: #cb376a;
         border: 1px solid #db7598;
     }
+
 .card1 {
     /*background: rgba(255, 255, 255, .7) ;*/
-    -webkit-backdrop-filter: blur(10px) ;
-    backdrop-filter: blur(10px) ;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
     /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) ;*/
-    width: 70% ;
+    width: 70%;
     /*height: 5% ;*/
-    margin: auto ;
+    margin: auto;
     text-align: center;
 }
+
     .card1 a {
-        font-size: 250% ;
-        color: black ;
-        padding: 10px ;
-        text-decoration: none ;
+        font-size: 250%;
+        color: black;
+        padding: 10px;
+        text-decoration: none;
     }
+
         .card1 a:hover {
-            border: 1px solid black ;
-            box-shadow: 2px 2px 5px 1px ;
-            color: brown 
+            border: 1px solid black;
+            box-shadow: 2px 2px 5px 1px;
+            color: brown
         }
+
+/*.tablescroll {
+    overflow-x: auto;
+}
+
+caption {
+    font-size: 1.5rem;
+    text-align: left;
+    font-weight: bold;
+    margin: 1rem auto;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th {
+    text-align: left;
+    background-color: #ccc;
+}
+
+th, td {
+    padding: 0.5rem;
+    border-right: 1px solid black;
+}
+
+tr {
+    border-bottom: 1px solid black;
+}
+
+    tr:nth-child(odd) {
+        background-color: #eee;
+    }*/
+table, thead, tbody, th, td, tr {
+    display: block;
+}
+
+    /* Hide table headers (but not display: none; for accessibility) */
+    thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+td, th {
+    border: none;
+}
+
+    td::before {
+        /* Top/left values mimic padding */
+        white-space: nowrap;
+        font-weight: bold;
+    }
+
+    /* Label the data */
+    td:nth-of-type(1)::before {
+        content: "Institute: ";
+    }
+
+    td:nth-of-type(2)::before {
+        content: "Course: ";
+    }
+
+    td:nth-of-type(3)::before {
+        content: "Year: ";
+    }
+
+    td:nth-of-type(4)::before {
+        content: "Grades: ";
+    }
+
+    td:nth-of-type(5)::before {
+        content: "Academic Details: ";
+    }
+
+/*td:nth-of-type(2)::after {
+        content: " g";
+    }
+
+    td:nth-of-type(4)::after {
+        content: " mg/measure";
+    }
+
+    td:nth-of-type(5)::after {
+        content: "  \B5g/measure";
+    }*/
+
+/* let the table scroll as a backup */
+.tablescroll {
+    overflow-x: auto;
+}
+/* basic CSS styles */
+
+.n {
+    font-size: 1.5rem;
+    text-align: left;
+    font-weight: bold;
+    margin: 1rem auto;
+    width: 100%;
+    padding: 0.25em 0.5em 0.5em 0.5em;
+}
+
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+th {
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+th, td {
+    padding: 0.5rem;
+    /* border-right: 1px solid black; */
+}
+
+tr:not(:last-child),
+thead {
+    border-bottom: 1px solid black;
+}
+
+tr:nth-child(odd) {
+    background-color: #eee;
+}
+
+tr:nth-child(even) {
+    background-color: lightgray;
+}
