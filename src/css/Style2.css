@@ -1149,7 +1149,7 @@
     th {
         display: none;
     }*/
-    li::before {
+    table li::before {
         content: '▶';
     }
 
