@@ -1153,8 +1153,19 @@
         content: '▶';
     }
 
+    table caption::before {
+        content: '↓';
+    }
+
     table caption {
         display: block;
+    }
+
+    .tcol-lg-6 {
+        position: relative;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px
     }
 }
 

@@ -162,15 +162,15 @@ td, th {
         content: "Academic Details: ";
     }
 
-/*td:nth-of-type(2)::after {
+    /*td:nth-of-type(2)::after {
         content: " g";
-    }
+    }*/
 
     td:nth-of-type(4)::after {
-        content: " mg/measure";
+        content: " CGPA";
     }
 
-    td:nth-of-type(5)::after {
+/*td:nth-of-type(5)::after {
         content: "  \B5g/measure";
     }*/
 
@@ -215,4 +215,8 @@ tr:nth-child(odd) {
 
 tr:nth-child(even) {
     background-color: lightgray;
+}
+
+table caption::before {
+    content: '↑';
 }
