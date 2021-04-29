@@ -1167,6 +1167,17 @@
         padding-right: 15px;
         padding-left: 15px
     }
+    .hero-button {
+        background-color: #ae2d59;
+        color: white;
+        border: 1px solid #cb376a;
+        margin-top: 0.5rem;
+        padding: 0.9375rem 1.875rem;
+        font-family: "Monserrat", sans-serif;
+        font-size: 1.125rem;
+        font-weight: 200;
+        cursor: pointer;
+    }
 }
 
 @media(min-width: 600px) {
