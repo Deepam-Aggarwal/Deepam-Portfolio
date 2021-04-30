@@ -1,0 +1,718 @@
+@media (max-width: 1199px) {
+
+    .portfolio-category li a {
+        display: inline-block;
+    }
+
+    .header .nav-item .nav-link {
+        margin: 0px 10px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .about-text {
+        padding: 10px 0;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .t-author h4 {
+        font-size: 15px;
+    }
+
+    #counterArea .counter_box {
+        margin-bottom: 30px;
+    }
+
+
+}
+
+
+@media (max-width: 991px) {
+    .home {
+        height: auto;
+    }
+
+    .home .h-100vh {
+        height: auto !important;
+        padding: 100px 0px 100px;
+    }
+
+    .pricing-item {
+        -webkit-flex: 0 1 44%;
+        flex: 0 1 44%;
+    }
+
+    .card-columns {
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+        -webkit-column-gap: 1.25rem;
+        -moz-column-gap: 1.25rem;
+        column-gap: 1.25rem;
+    }
+
+    .header {
+        background: #fff;
+    }
+
+
+    #counterArea .counter_box h2,
+    #counterArea .counter_box span {
+        font-size: 30px;
+    }
+
+    .header .navbar {
+        padding: 8px 0px;
+    }
+
+    #counterArea .counter_box {
+        margin-bottom: 30px;
+    }
+
+    #counterArea {
+        position: relative;
+        padding: 120px 0px 85px;
+    }
+
+    .single-info {
+        margin-bottom: 30px;
+    }
+
+    .back-top-btn {
+        bottom: 90px !important;
+    }
+
+    .home-page-form {
+        margin-bottom: 30px;
+    }
+
+    .breadcrumb-area .title {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 5px;
+    }
+
+    .blog-details .blog-content .content .title {
+        font-size: 26px;
+        line-height: 36px;
+    }
+
+    .blog-aside {
+        margin-top: 60px;
+    }
+
+    .home-bg {
+        height: auto;
+        padding: 100px 0px 100px;
+    }
+
+    a.scroll {
+        display: none;
+    }
+
+    .home-bg .profile-img img {
+        margin-bottom: 25px;
+        width: 160px;
+        height: 160px;
+    }
+
+    .home-bg .name {
+        font-size: 34px;
+    }
+
+    .about-content .about-heading {
+        font-size: 28px;
+        line-height: normal;
+    }
+
+    .portfolio-category li a {
+        padding: 5px 20px;
+    }
+
+    .portfolio-details .info {
+        margin-top: 30px;
+    }
+
+    .aside-contact-form .contact-form {
+        margin-bottom: 0px !important;
+    }
+
+    .portfolio-details {
+        padding: 100px 0px 120px;
+    }
+
+    .header .nav-item .nav-link::after {
+        display: none;
+    }
+
+    .header .nav-item .nav-link::before {
+        display: none;
+    }
+
+    .faq-box {
+        margin-bottom: 30px;
+    }
+
+    .lanwrapper {
+        position: absolute;
+        right: 60px;
+        top: 11px;
+    }
+
+    .hero-box {
+        padding-top: 40px;
+    }
+
+    .mainmenu-area .my-navbar .navbar-links .mynav-item {
+        display: block;
+        height: auto;
+    }
+
+    .mainmenu-area {
+        border-radius: 0px;
+    }
+
+    .mainmenu-area .my-navbar .navbar-links .mynav-item .mynav-link {
+        text-align: left;
+    }
+
+    .mainmenu-area .my-navbar .navbar-links .mynav-item .mynav-link {
+        padding: 8px 0px;
+    }
+
+    .mainmenu-area .my-navbar .navbar-links {
+        padding-top: 55px;
+    }
+    .mainmenu-area {
+        padding: 0px 20px 0px 20px;
+    }
+
+    .mainmenu-area .my-navbar .navbar-links .mynav-item .mynav-link {
+        color: #fff;
+        height: auto;
+    }
+
+    .author-image {
+        text-align: center;
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .my-acivment-list {
+        margin-top: 32px;
+    }
+
+    .google_map_wrapper iframe {
+        height: 250px;
+    }
+
+    .project-details {
+        margin-top: 25px;
+    }
+
+    .blog-details .blog-content .content .title {
+        font-size: 20px;
+        line-height: 30px;
+    }
+ 
+    .mainmenu-area {
+        height: auto;
+        border-radius: 10px 25px 10px 10px;
+        width: 220px;
+        padding-bottom: 15px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    #ca-navbar {
+        background: #fff;
+        padding: 10px 0px 10px;
+    }
+
+    .header .nav-item .nav-link {
+        color: #242424;
+    }
+
+    .header .nav-item .nav-link.smoth-scroll.active,
+    .header .nav-item .nav-link:hover {
+        color: #ff5252;
+    }
+
+    .header .nav-item .nav-link {
+        padding: 5px 0px 5px;
+    }
+
+    .style.header .nav-item .nav-link.smoth-scroll.active::after,
+    .style.header .nav-item .nav-link:hover::after {
+        display: none;
+    }
+
+    .main-menu ul.navbar-nav li a {
+        padding: 30px 10px;
+    }
+
+    .custom-navbar.top-nav-collapse .main-menu ul.navbar-nav li a {
+        padding: 25px 10px;
+    }
+
+    .welcome-area .home-arrow {
+        bottom: -220px;
+    }
+
+    .welcome-text h1 {
+        font-size: 65px;
+    }
+
+    .typed-cursor,
+    .element {
+        font-size: 22px;
+    }
+
+    .single-stat {
+        margin-bottom: 60px;
+    }
+
+    .contact-form {
+        margin-bottom: 30px;
+    }
+
+    .hover-content h4 {
+        font-size: 16px;
+    }
+
+    .hover-content a {
+        font-size: 16px;
+        height: 40px;
+        line-height: 44px;
+        width: 40px;
+    }
+
+    .inner {
+        padding: 15px;
+    }
+
+}
+
+@media (max-height: 850px) {
+    .home .h-100vh {
+        height: auto !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .project-details-info{
+        padding-top: 30px;
+    }
+    .author-image {
+        display: block;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .author-image img {
+        display: inline-block;
+    }
+
+    .portfolio-details .content .title {
+        font-size: 24px;
+    }
+
+    .blog-details .blog-content .content .title {
+        font-size: 24px;
+    }
+
+    .blog-aside .categori .title,
+    .blog-aside .recent-post-widget .title,
+    .blog-aside .archives .title {
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 12px;
+    }
+
+    .my-acivment-list .single-acivment {
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    .my-acivment-list .single-acivment .top-area {
+        display: block;
+    }
+
+    .my-acivment-list .single-acivment .top-area .number {
+        padding-left: 0px;
+    }
+
+    .my-acivment-list .single-acivment .top-area .icon {
+        margin-bottom: 15px;
+    }
+
+    .project-gallery .project-gallery-filter .project-gallery-menu .filter {
+        margin: 3px 5px;
+    }
+
+    .section-heading .s-h-title {
+        font-size: 36px;
+        line-height: 46px;
+    }
+
+    .about-area .about-content {
+        text-align: center;
+    }
+
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .quotes-content h3 {
+        line-height: 1.2;
+        font-size: 36px;
+    }
+
+    .welcome-text h1 {
+        font-size: 36px;
+    }
+
+    .typed-cursor,
+    .element {
+        font-size: 18px;
+    }
+
+    .welcome-area .home-arrow {
+        bottom: -90px;
+    }
+
+    .about-area .tab {
+        margin-top: 42px;
+    }
+
+    .about-area h3 {
+        font-size: 24px;
+    }
+
+    .modal-body h3 {
+        font-size: 18px;
+    }
+
+    .modal-body {
+        padding: 0;
+    }
+
+    .single-stat {
+        margin-bottom: 20px;
+        display: block;
+    }
+
+    .cta-area h2 {
+        font-size: 32px;
+    }
+
+    .contact-form {
+        margin-bottom: 30px;
+    }
+
+    .single-address {
+        margin-bottom: 30px;
+    }
+
+    .breadcroumb-area h1 {
+        font-size: 32px;
+    }
+
+    .breadcroumb {
+        font-size: 14px;
+    }
+
+    .single-post h2,
+    .single-post-details h2 {
+        font-size: 20px;
+    }
+
+    .comment-metadata {
+        margin-top: 10px;
+    }
+
+    .row.replay-area {
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+
+    .comment-form-wrap {
+        margin-bottom: 50px;
+    }
+
+    h3.comment-title {
+        font-size: 18px;
+    }
+
+    .footer-text P {
+        font-size: 14px;
+    }
+
+    #ca-navbar {
+        background: #fff;
+        padding: 10px 0px 10px;
+    }
+
+    .header .nav-item .nav-link {
+        color: #242424;
+    }
+
+    .header .nav-item .nav-link.smoth-scroll.active,
+    .header .nav-item .nav-link:hover {
+        color: #ff5252;
+    }
+
+    .header .nav-item .nav-link {
+        padding: 7px 15px 7px;
+    }
+
+    .style.header .nav-item .nav-link.smoth-scroll.active::after,
+    .style.header .nav-item .nav-link:hover::after {
+        display: none;
+    }
+
+    h4.about-heading {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .about-area .nav-tabs {
+        margin-bottom: 37px;
+    }
+
+    .inner {
+        padding: 15px;
+    }
+
+    .single-stat.s3 {
+        margin-bottom: 0px;
+
+    }
+
+    .single-stat.s4 {
+        margin-bottom: 0px;
+
+    }
+
+    .wow {
+        visibility: visible !important;
+        -webkit-animation: none !important;
+        -moz-animation: none !important;
+        -o-animation: none !important;
+        -ms-animation: none !important;
+        animation: none !important;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .about-content .about-heading {
+        font-size: 24px;
+        line-height: normal;
+    }
+    .ajax-container .header-area .project-title{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .pricing-item {
+        -webkit-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        margin-top: 0px !important;
+    }
+
+    .about-area .about-content .info-list li {
+        display: block;
+    }
+
+    .home-bg .name {
+        font-size: 30px;
+    }
+
+    .welcome-area .home-arrow {
+        bottom: -90px;
+    }
+
+    .about-area .tab {
+        margin-top: 42px;
+    }
+
+    .single-stat {
+        margin-bottom: 20px;
+        display: block;
+    }
+
+    .contact-form {
+        margin-bottom: 30px;
+    }
+
+    .single-address {
+        margin-bottom: 30px;
+    }
+
+    .breadcroumb-area h1 {
+        font-size: 32px;
+    }
+
+    .breadcroumb {
+        font-size: 14px;
+    }
+
+    .single-post h2,
+    .single-post-details h2 {
+        font-size: 20px;
+    }
+
+    .comment-metadata {
+        margin-top: 10px;
+    }
+
+    .row.replay-area {
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+
+    .comment-form-wrap {
+        margin-bottom: 50px;
+    }
+
+    h3.comment-title {
+        font-size: 18px;
+    }
+
+    .footer-text P {
+        font-size: 14px;
+    }
+
+    #ca-navbar {
+        background: #fff;
+        padding: 10px 0px 10px;
+    }
+
+    .header .nav-item .nav-link {
+        color: #242424;
+    }
+
+    .header .nav-item .nav-link.smoth-scroll.active,
+    .header .nav-item .nav-link:hover {
+        color: #ff5252;
+    }
+
+    .header .nav-item .nav-link {
+        padding: 7px 15px 7px;
+    }
+
+    .style.header .nav-item .nav-link.smoth-scroll.active::after,
+    .style.header .nav-item .nav-link:hover::after {
+        display: none;
+    }
+
+    .about-area .nav-tabs {
+        margin-bottom: 37px;
+    }
+
+    .inner {
+        padding: 15px;
+    }
+
+    .single-stat.s3 {
+        margin-bottom: 0px;
+
+    }
+
+    .single-stat.s4 {
+        margin-bottom: 0px;
+
+    }
+
+    .section-title h2 {
+        font-size: 28px;
+    }
+
+    .blogs .blog-box .blog-details .blog-title {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .blog-details .blog-content .content .title {
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    /* .blog-details .blog-content .content {
+        padding: 22px 15px 30px;
+    } */
+
+    .card-columns {
+        column-count: 1 !important;
+    }
+
+    .home .name {
+        font-size: 30px;
+    }
+
+    .home .profile-img img {
+        width: 130px;
+        height: 130px;
+    }
+
+    .social_home {
+        padding-top: 0px !important;
+    }
+
+    .about-area .about-content .info-list li {
+        list-style: none;
+        flex: 100%;
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-bottom: 15px;
+    }
+
+    .social-link ul li a {
+        margin: 5px 5px;
+    }
+    .my-acivment-list .single-acivment .top-area .number {
+        font-size: 30px;
+        line-height: 40px;
+    }
+}
+
+@media (max-width: 414px) {
+    .home .name {
+        font-size: 26px;
+        line-height: 36px;
+        margin-bottom: 10px;
+    }
+
+    .header_title {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .mainmenu-area {
+        top: 25px;
+        right: 25px;
+    }
+
+    .home .main-profile-image {
+        padding: 20px;
+    }
+
+    .section-heading .s-h-title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .ajax-container iframe{
+        height: 300px!important;
+      }
+}
