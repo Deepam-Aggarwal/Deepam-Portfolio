@@ -37,14 +37,6 @@ html {
   overflow-x: hidden;
 }
 
-body {
-  font-family: "Open Sans", sans-serif;
-  font-size: 16px;
-  margin: 0;
-  color: #71768e;
-  overflow-x: hidden;
-  background-color: #171C32;
-}
 
 body.modal-open {
   padding-right: 0px !important;

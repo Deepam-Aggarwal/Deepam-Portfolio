@@ -1130,17 +1130,17 @@
 
 @media only screen and (max-width: 600px) {
     .card1 {
-        width: 100%;
+        width: 100% !important;
     }
 
         .card1 a {
-            font-size: 250%;
-            padding: 5px;
-            color: silver
+            font-size: 250% !important;
+            padding: 5px !important;
+            color: silver !important;
         }
 
             .card1 a:hover {
-                color: lightsalmon;
+                color: lightsalmon !important;
             }
     /* td {
         display: -webkit-box;
