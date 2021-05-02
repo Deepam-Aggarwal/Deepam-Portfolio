@@ -92,6 +92,9 @@ h1 {
     font-family: 'Josefin Sans', sans-serif !important;
     font-size:64px !important;
 }
+.single-list-ul li p , h4.title{
+    color:white;
+}
 /*skills area started*/
 .skill-area .skill-list .single-skill .label {
     display: -webkit-box;
@@ -171,15 +174,15 @@ h1 {
 }
 
     .skill-area-circle .skill-list .single-skill {
-        margin-bottom: 19px;
-        display: inline-block;
-        -webkit-box-flex: 50%;
-        -ms-flex: 50%;
-        flex: 50%;
-        width: 50%;
-        padding-left: 10px;
-        padding-right: 10px;
-        text-align: center;
+        margin-bottom: 19px !important;
+        display: inline-block !important;
+        -webkit-box-flex: 50% !important;
+        -ms-flex: 50% !important;
+        flex: 50% !important;
+        width: 50% !important;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+        text-align: center !important;
     }
 
 .skill-area-line .skill-box {
@@ -202,7 +205,7 @@ h1 {
 
             .skill-area .skill-list .single-list-ul li p::before {
                 position: absolute;
-                font-family: "Font Awesome 5 Free";
+                font-family: "Font Awesome 5 Free" !important;
                 content: "\f058";
                 font-weight: 900;
                 top: 1px;
@@ -211,17 +214,17 @@ h1 {
             }
 
 .progress-circle {
-    position: relative;
-    height: 100px;
-    width: 100px;
-    display: inline-block;
+    position: relative !important;
+    height: 100px !important;
+    width: 100px !important;
+    display: inline-block !important;
 }
 
     .progress-circle div {
-        position: absolute;
-        height: 100px;
-        width: 100px;
-        border-radius: 50%;
+        position: absolute !important;
+        height: 100px !important;
+        width: 100px !important;
+        border-radius: 50% !important;
     }
 
         .progress-circle div span {
@@ -245,26 +248,26 @@ h1 {
     }
 
     .progress-circle .rotate {
-        clip: rect(0 50px 100px 0);
-        background-color: #4c84ff;
+        clip: rect(0 50px 100px 0) !important;
+        background-color: #4c84ff !important;
     }
 
     .progress-circle .right {
-        background-color: #4c84ff;
+        background-color: #4c84ff !important;
     }
 
     .progress-circle .left {
-        clip: rect(0 50px 100px 0);
-        opacity: 1;
-        background-color: #b3cef6;
+        clip: rect(0 50px 100px 0) !important;
+        opacity: 1 !important;
+        background-color: #b3cef6 !important;
     }
 
     .progress-circle .right {
-        clip: rect(0 50px 100px 0);
-        -webkit-transform: rotate(180deg);
-        -ms-transform: rotate(180deg);
-        transform: rotate(180deg);
-        opacity: 0;
+        clip: rect(0 50px 100px 0) !important;
+        -webkit-transform: rotate(180deg) !important;
+        -ms-transform: rotate(180deg) !important;
+        transform: rotate(180deg) !important;
+        opacity: 0 !important;
     }
 
 #eduandex .title {
@@ -332,6 +335,7 @@ h1 {
         font-size: 18px !important;
         font-weight: 600 !important;
         margin-bottom: 4px !important;
+        font-family: 'Josefin Sans', sans-serif !important;
     }
 
     #eduandex .education-list .single-education .degree {
@@ -399,11 +403,11 @@ h1 {
         }
 
         .about-area .about-content .info-list li .value {
-            color: #ffffff;
+            color: #ffffff!important;
         }
 
             .about-area .about-content .info-list li .value a {
-                color: #555;
+                color: #555!important;
             }
 
 .about-area .mybtn {
