@@ -92,6 +92,520 @@ h1 {
     font-family: 'Josefin Sans', sans-serif !important;
     font-size:64px !important;
 }
+/*skills area started*/
+.skill-area .skill-list .single-skill .label {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-top: -6px;
+    margin-bottom: 4px;
+}
+
+.skill-box {
+    background: #252c48;
+    padding: 35px 30px 9px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+.edu-box {
+    padding: 35px 30px 40px;
+    margin-bottom: 30px;
+    background: #252c48;
+    border-radius: 10px;
+}
+
+.skill-area .title {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+    padding-bottom: 5px;
+    font-size: 21px;
+    position: relative;
+    margin-bottom: 25px;
+}
+
+    .skill-area .title:before {
+        position: absolute;
+        content: "";
+        width: 110px;
+        height: 2px;
+        background: #4c84ff;
+        bottom: -1px;
+    }
+
+.skill-area .skill-list .single-skill .label span {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.skill-area .skill-list .single-skill {
+    margin-bottom: 21px;
+}
+
+    .skill-area .skill-list .single-skill:last-child {
+        margin-bottom: 0px;
+    }
+
+    .skill-area .skill-list .single-skill .progress {
+        height: 15px;
+        border-radius: 0px;
+        background: #454d71 !important;
+    }
+
+.progress-bar {
+    background-color: #4c84ff;
+}
+
+.skill-area-circle .skill-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+    .skill-area-circle .skill-list .single-skill {
+        margin-bottom: 19px;
+        display: inline-block;
+        -webkit-box-flex: 50%;
+        -ms-flex: 50%;
+        flex: 50%;
+        width: 50%;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+    }
+
+.skill-area-line .skill-box {
+    padding-bottom: 39px;
+}
+
+.skill-area .skill-list .single-list-ul {
+    padding-left: 0px;
+    margin-bottom: 18px;
+}
+
+    .skill-area .skill-list .single-list-ul li {
+        list-style: none;
+    }
+
+        .skill-area .skill-list .single-list-ul li p {
+            position: relative;
+            padding-left: 30px;
+        }
+
+            .skill-area .skill-list .single-list-ul li p::before {
+                position: absolute;
+                font-family: "Font Awesome 5 Free";
+                content: "\f058";
+                font-weight: 900;
+                top: 1px;
+                left: 0px;
+                font-size: 18px;
+            }
+
+.progress-circle {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
+
+    .progress-circle div {
+        position: absolute;
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+    }
+
+        .progress-circle div span {
+            position: absolute !important;
+            font-size: 18px !important;
+            font-weight: 600 !important;
+            line-height: 85px !important;
+            height: 80px !important;
+            width: 80px !important;
+            left: 10px !important;
+            top: 10px !important;
+            text-align: center !important;
+            border-radius: 50% !important;
+            background-color: #252c48 !important;
+            color: #fff !important;
+            font-family: 'Josefin Sans', sans-serif !important;
+        }
+
+    .progress-circle .background {
+        background: #454d71 !important;
+    }
+
+    .progress-circle .rotate {
+        clip: rect(0 50px 100px 0);
+        background-color: #4c84ff;
+    }
+
+    .progress-circle .right {
+        background-color: #4c84ff;
+    }
+
+    .progress-circle .left {
+        clip: rect(0 50px 100px 0);
+        opacity: 1;
+        background-color: #b3cef6;
+    }
+
+    .progress-circle .right {
+        clip: rect(0 50px 100px 0);
+        -webkit-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        transform: rotate(180deg);
+        opacity: 0;
+    }
+
+#eduandex .title {
+    border-bottom: 1px solid #626a8a;
+    padding-bottom: 13px;
+    font-size: 21px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+    #eduandex .title:before {
+        position: absolute;
+        content: "";
+        width: 110px;
+        height: 3px;
+        background: #4c84ff;
+        bottom: -2px;
+    }
+
+#eduandex .education-list .single-education {
+    border-left: 3px solid #626a8a !important;
+    margin-bottom: 30px !important;
+    padding-left: 20px !important;
+    padding-top: 11px !important;
+    padding-bottom: 7px !important;
+    position: relative !important;
+    -webkit-transition: all .3s !important;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+    #eduandex .education-list .single-education:hover {
+        border-left: 3px solid #4c84ff !important;
+    }
+
+    #eduandex .education-list .single-education::before {
+        position: absolute !important;
+        content: "" !important;
+        top: -1px !important;
+        left: -9px !important;
+        width: 15px !important;
+        height: 15px !important;
+        border-radius: 50% !important;
+        background: #fff !important;
+        border: 2px solid #4c84ff !important;
+    }
+
+    #eduandex .education-list .single-education::after {
+        position: absolute !important;
+        content: "" !important;
+        bottom: -1px !important;
+        left: -9px !important;
+        width: 15px !important;
+        height: 15px !important;
+        border-radius: 50% !important;
+        background: #fff !important;
+        border: 2px solid #4c84ff !important;
+    }
+
+    #eduandex .education-list .single-education:last-child {
+        margin-bottom: 0px !important;
+    }
+
+    #eduandex .education-list .single-education .collage-name {
+        font-size: 18px !important;
+        font-weight: 600 !important;
+        margin-bottom: 4px !important;
+    }
+
+    #eduandex .education-list .single-education .degree {
+        font-size: 15px !important;
+        margin-bottom: 7px !important;
+        color: #94a2c6 !important;
+        font-weight: 600 !important;
+    }
+
+    #eduandex .education-list .single-education .year {
+        margin-left: 20px !important;
+        position: relative !important;
+    }
+
+        #eduandex .education-list .single-education .year::before {
+            position: absolute !important;
+            content: "|" !important;
+            left: -14px !important;
+        }
+
+    #eduandex .education-list .single-education .description p {
+        margin-bottom: 0px !important;
+    }
+    /*skills area end*/
+
+.about-area {
+    padding-bottom: 70px;
+}
+
+.about-box {
+    background: #252c48;
+    padding: 33px 30px 34px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+.about-content .about-heading {
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.about-area .about-content .info-list {
+    margin-left: 0px;
+    padding-left: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 7px;
+}
+
+    .about-area .about-content .info-list li {
+        list-style: none;
+        flex: 50%;
+        width: 50%;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-bottom: 15px;
+    }
+
+        .about-area .about-content .info-list li .title {
+            font-weight: 500;
+            color: #94A2C7;
+            margin-right: 5px;
+        }
+
+        .about-area .about-content .info-list li .value {
+            color: #ffffff;
+        }
+
+            .about-area .about-content .info-list li .value a {
+                color: #555;
+            }
+
+.about-area .mybtn {
+    margin-top: 6px;
+}
+
+/* .my-acivment-list{
+  display: flex;
+  flex-wrap: wrap;
+} */
+
+.my-acivment-list .single-acivment.one,
+.my-acivment-list .single-acivment.two {
+    margin-bottom: 30px;
+}
+
+.my-acivment-list .single-acivment .top-area {
+    display: flex;
+    margin-bottom: 12px;
+}
+
+    .my-acivment-list .single-acivment .top-area .icon {
+        background-color: rgba(66, 133, 244, 0.1);
+        display: inline-block;
+        width: 60px;
+        height: 60px;
+        text-align: center;
+        line-height: 60px;
+        color: #4285F4;
+        font-size: 26px;
+        border-radius: 10px;
+    }
+
+    .my-acivment-list .single-acivment .top-area .number {
+        flex: 1;
+        padding-left: 30px;
+        font-size: 40px;
+        line-height: 50px;
+        font-weight: 600;
+        color: #fff;
+        align-self: center;
+        margin-bottom: 0px;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+
+        .my-acivment-list .single-acivment .top-area .number .plus {
+            font-size: 24px;
+            font-weight: 600;
+            color: #fff;
+            margin-left: 5px;
+            position: relative;
+            top: -15px;
+        }
+
+.my-acivment-list .single-acivment .content .title {
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+}
+
+
+
+
+.social-link {
+    display: block;
+    margin-top: 30px;
+}
+
+    .social-link ul {
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+
+        .social-link ul li {
+            display: inline-block;
+        }
+
+            .social-link ul li a {
+                width: 45px;
+                height: 45px;
+                text-align: center;
+                font-size: 16px;
+                border-radius: 3%;
+                line-height: 45px;
+                margin: 0px 5px;
+                display: block;
+                border-radius: 4px;
+                background: rgba(66, 133, 244, 0.1);
+                color: #4285F4;
+                -webkit-transition: all 0.3s linear;
+                -moz-transition: all 0.3s linear;
+                -o-transition: all 0.3s linear;
+                transition: all 0.3s linear;
+            }
+
+                .social-link ul li a:hover {
+                    color: #fff !important;
+                    background: #4285F4;
+                    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.10), 0 6px 6px rgba(0, 0, 0, 0.10);
+                }
+
+.w-i-d {
+    padding-top: 63px;
+}
+
+.single-service {
+    display: block;
+    text-align: center;
+    margin-bottom: 30px;
+    background: #252c48;
+    border-radius: 10px;
+    position: relative;
+    padding: 30px 30px 30px;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+
+    .single-service img {
+        width: 65px;
+        margin-bottom: 26px;
+    }
+
+    .single-service .title {
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 17px;
+        font-weight: 500;
+    }
+
+    .single-service p {
+        margin-bottom: 0px;
+        color: #fff;
+    }
+
+.single-review {
+    background: #252c48;
+    padding: 30px 30px 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+    .single-review .stars {
+        margin-bottom: 8px;
+        display: block;
+    }
+
+        .single-review .stars i {
+            font-size: 14px;
+            color: #ffcc00;
+        }
+
+    .single-review .content p {
+        margin-bottom: 0px;
+    }
+
+    .single-review .reviewr {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        margin-bottom: 13px;
+    }
+
+        .single-review .reviewr .img img {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+
+.testimonial .single-review {
+    position: relative;
+}
+
+.single-review .reviewr .content {
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+}
+
+    .single-review .reviewr .content .name {
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 500;
+        margin-bottom: 0px;
+    }
+
+    .single-review .reviewr .content p {
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 0px;
+    }
+
+/* About Area End */
 
 /*.tablescroll {
     overflow-x: auto;
