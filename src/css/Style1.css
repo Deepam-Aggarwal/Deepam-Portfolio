@@ -95,6 +95,131 @@ h1 {
 .single-list-ul li p , h4.title{
     color:white;
 }
+
+/*button styling*/
+.mybtn {
+    padding: 8px 30px;
+    border-radius: 4px;
+    display: inline-block;
+    border: 1px solid transparent;
+    position: relative;
+    z-index: 3;
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    -webkit-transition: all .4s;
+    -o-transition: all .4s;
+    transition: all .4s;
+    cursor: pointer;
+    outline: none !important;
+    overflow: hidden;
+}
+
+    .mybtn span {
+        text-transform: uppercase;
+        position: relative;
+        z-index: 6;
+        -webkit-transition-delay: 0s;
+        -o-transition-delay: 0s;
+        transition-delay: 0s;
+    }
+
+        .mybtn span i {
+            margin-right: 6px;
+        }
+
+    .mybtn:before,
+    .mybtn:after {
+        content: '';
+        width: 0;
+        height: 100%;
+        background: #252C48;
+        position: absolute;
+        left: 0;
+        top: 0;
+        -webkit-transition: width 0.4s;
+        -o-transition: width 0.4s;
+        transition: width 0.4s;
+        z-index: 1;
+        opacity: .4;
+    }
+
+    .mybtn:after {
+        -webkit-transition-delay: 0s;
+        -o-transition-delay: 0s;
+        transition-delay: 0s;
+        background: #252C48;
+        opacity: 1;
+    }
+
+    .mybtn:hover:before,
+    .mybtn:hover:after {
+        width: 100%;
+    }
+
+    .mybtn:hover:after {
+        -webkit-transition-delay: .2s;
+        -o-transition-delay: .2s;
+        transition-delay: .2s;
+    }
+
+    .mybtn:hover span {
+        -webkit-transition-delay: .2s;
+        -o-transition-delay: .2s;
+        transition-delay: .2s;
+    }
+
+.mybtn-bg {
+    background: #4c84ff;
+    ;
+    border-color: #4c84ff;
+    ;
+    color: #fff;
+}
+
+    .mybtn-bg:hover span {
+        color: #fff;
+    }
+
+.mybtn-light {
+    background: #fff;
+}
+
+    .mybtn-light:before,
+    .mybtn-light:after {
+        background: #252C48;
+    }
+
+    .mybtn-light:hover span {
+        color: #fff !important;
+    }
+
+    .mybtn-light span {
+        color: #4c84ff;
+        ;
+    }
+
+.mybtn-bord {
+    background: transparent;
+    border: 1px solid #4c84ff;
+    ;
+}
+
+    .mybtn-bord:before,
+    .mybtn-bord:after {
+        background: #4c84ff;
+        ;
+    }
+
+    .mybtn-bord:hover {
+        border-color: #4c84ff;
+        ;
+    }
+
+        .mybtn-bord:hover span {
+            color: #fff;
+        }
+/*button styling ends*/
+
 /*skills area started*/
 .skill-area .skill-list .single-skill .label {
     display: -webkit-box;
@@ -610,6 +735,140 @@ h1 {
     }
 
 /* About Area End */
+
+/*================================================
+CONTACT INFO AREA Start
+==================================================*/
+
+section#contact {
+    padding-bottom: 100px !important;
+}
+
+.contact-form .form-group {
+    margin-bottom: 15px !important;
+    position: relative !important;
+}
+
+    .contact-form .form-group i.fa {
+        position: absolute !important;
+        top: 15px !important;
+        left: 0 !important;
+        font-size: 16px !important;
+    }
+
+.home-page-form {
+    background: #252c48 !important;
+    padding: 22px 30px 40px !important;
+    border-radius: 10px !important;
+}
+
+.google_map_wrapper {
+    border: 20px solid #252c48 !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24) !important;
+    display: flex !important;
+    height: 100% !important;
+    border-radius: 10px !important;
+}
+
+    .google_map_wrapper iframe {
+        padding: 0px !important;
+        border: 0px !important;
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+.form-control {
+    padding: 12px 0px !important;
+    font-size: 16px !important;
+    height: auto !important;
+    box-shadow: none !important;
+    border-top: 0 !important;
+    border-left: 0 !important;
+    border-right: 0 !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+    border-radius: 0 !important;
+    background-color: #252c48 !important;
+    color: #fff !important;
+}
+
+    .form-control:focus {
+        outline: 0px !important;
+        border: 0px !important;
+        border-bottom: 1px solid #4c84ff !important;
+        background-color: #252c48 !important;
+        background: #252c48 !important;
+        color: #fff !important;
+    }
+
+    .form-control::placeholder {
+        color: #94a2c6 !important !important;
+    }
+
+    .form-control::-webkit-placeholder {
+        color: #94a2c6 !important !important;
+    }
+
+    .form-control::-moz-placeholder {
+        color: #94a2c6 !important;
+    }
+
+    .form-control::-ms-placeholder {
+        color: #94a2c6 !important;
+    }
+
+textarea.form-control {
+    resize: vertical !important;
+    height: 130px !important;
+}
+
+.contact-form .mybtn {
+    width: 100% !important;
+    margin-top: 13px !important;
+}
+
+
+.contact .single-info {
+    padding: 39px 20px 36px !important;
+    margin-bottom: 30px !important;
+    text-align: center !important;
+    background: #252c48 !important;
+    position: relative !important;
+    border-radius: 10px !important;
+}
+
+.info-icon {
+    width: 65px !important;
+    height: 65px !important;
+    font-size: 25px !important;
+    color: #4285F4 !important;
+    text-align: center !important;
+    line-height: 65px !important;
+    border-radius: 50% !important;
+    display: inline-block !important;
+    margin-bottom: 25px !important;
+    background: rgba(66, 133, 244, 0.1) !important;
+}
+
+    .info-icon.fa {
+        font-size: 20px !important;
+    }
+
+.single-info h5 {
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    margin-bottom: 10px !important;
+}
+
+.single-info p {
+    margin-bottom: 0 !important;
+    color: #94a2c6 !important;
+}
+
+
+/*================================================
+CONTACT INFO AREA End
+==================================================*/
+
 
 /*.tablescroll {
     overflow-x: auto;

@@ -1209,6 +1209,11 @@
     }
 }
 
+@media (max-width: 991px) {
+    .home-page-form {
+        margin-bottom: 30px;
+    }
+}
 /*Advisory Members
 @media only screen and (max-width: 450px)
 {
