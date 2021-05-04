@@ -12219,4 +12219,3 @@ $('.owl-carousel').owlCarousel({
         }
     }
 })
-
