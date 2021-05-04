@@ -96,33 +96,6 @@ h1 {
     color:white;
 }
 
-@keyframes lineanimation {
-    from {
-        left: 0%;
-    }
-
-    to {
-        left: 100%;
-    }
-}
-.header_title {
-    font-size: 21px;
-    line-height: 31px;
-    font-weight: 600;
-    color: #fff;
-}
-
-#typed {
-    font-size: 21px;
-    line-height: 31px;
-    font-weight: 600;
-    color: #fff;
-}
-
-.header_title span {
-    font-weight: 500;
-}
-
 
 .info-content h5 {
     color: white;

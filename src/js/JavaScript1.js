@@ -12220,21 +12220,3 @@ $('.owl-carousel').owlCarousel({
     }
 })
 
-/*Typed Activate*/
-var $typed = $("#typed");
-if ($typed.length > 0) {
-    $typed.typed({
-        strings: ["Web Design", "Web Development", "UI/UX Design"],
-        stringsElement: null,
-        typeSpeed: 70,
-        startDelay: 150,
-        backSpeed: 40,
-        backDelay: 350,
-        loop: true,
-        loopCount: 550,
-        showCursor: true,
-        cursorChar: "|",
-        attr: null,
-        contentType: "html",
-    });
-}
