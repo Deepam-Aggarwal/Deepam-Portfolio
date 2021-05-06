@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="src\css\Style4.css">
     <link rel="stylesheet" href="src\css\Style5.css">
     <link rel="stylesheet" href="src\css\bootstrap.css">
+    <link rel="stylesheet" href="src\css\bootstrap.min.css">
+    <link rel="stylesheet" href="src\css\owl.carousel.min.css">
+    <link rel="stylesheet" href="src\css\plugin.css">
 
     <title>DEEPAM PORTFOLIO</title>
 </head>
@@ -96,8 +99,10 @@
                                  data-animation-delay="0.03s" style="vertical-align: middle;">
                                 <p style="color: #fff;">
                                     <br /><br />
-                                    <span class="greeting">HELLO</span><br /><br /><b><span style="font-family: 'Josefin Sans', sans-serif; font-size:26px">I'M DEEPAM AGGARWAL</span><br /><br />
-                                    <span style="font-family: 'Josefin Sans', sans-serif;font-size:18px "> I DO</span> <span style="font-family: 'Josefin Sans', sans-serif; font-size:21px " class="txt-rotate" data-period="2000" data-rotate='[ "WEB DESIGN", "WEB DEVELOPMENT", "GRAPHIC DESIGNING"]'></span></b>
+                                    <span class="greeting">HELLO</span><br /><br /><b>
+                                        <span style="font-family: 'Josefin Sans', sans-serif; font-size:26px">I'M DEEPAM AGGARWAL</span><br /><br />
+                                        <span style="font-family: 'Josefin Sans', sans-serif;font-size:18px "> I DO</span> <span style="font-family: 'Josefin Sans', sans-serif; font-size:21px " class="txt-rotate" data-period="2000" data-rotate='[ "WEB DESIGN", "WEB DEVELOPMENT", "GRAPHIC DESIGNING"]'></span>
+                                    </b>
                                     <br /><br />I am 20 years old. I was born in Delhi.
                                     I am currently pursuing BCA at Institute of Innovation in Technology and Management
                                     and I have completed my Intermediate from Ramjas School. <br /><br />
@@ -580,6 +585,9 @@
                                                         <p>Spreadsheets (Excel, Google Spreadsheets, etc.)</p>
                                                     </li>
                                                     <li>
+                                                        <p>Softwares (Tableau, GIMP, etc.)</p>
+                                                    </li>
+                                                    <li>
                                                         <p>Email Communication</p>
                                                     </li>
                                                     <li>
@@ -604,8 +612,7 @@
         </div>
     </section>
 
-    <!--<section id="portfolio" style=" background: linear-gradient(
-        #003153, #4e6c86);">
+    <section id="portfolio" style=" background: linear-gradient(#003153, #4e6c86);" class="project-gallery section-padding  section-bg">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6 col-lg-12  align-items-center">
@@ -617,209 +624,157 @@
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 col-sm-9">
-
-                    <div class="mem animation" data-animation="fadeInUp" data-animation-delay="0.02s">
-                        <a href="" target="_blank" data-toggle="modal" data-target="#poster1" class="mem-image">
-                            <img src="admin/upload/poster-01.png" />
-                        </a>
-                        <hr />
-                        <div align="center">
-                            <a href="" class="mem-name" target="_blank" data-toggle="modal"
-                               data-target="#poster1"><strong>View More</strong></a>
-                        </div>
+                <div class="col-lg-12">
+                    <div class="project-gallery-filter d-flex justify-content-center">
+                        <ul class="project-gallery-menu d-inline-block">
+                            <li class="filter active" data-filter="all">All</li>
+                            <li class="filter" data-filter=".cat-1">Marketing</li>
+                            <li class="filter" data-filter=".cat-2">Management</li>
+                            <li class="filter" data-filter=".cat-3">Consulting</li>
+                        </ul>
                     </div>
-
-                    <div id="poster1" class="modal" role="dialog">
-                        <div class="modal-dialog modal-lg">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <div>
-                                        <h3 id="mem-name"><strong>INTER-BATTLE-VIEW</strong></h3>
+                    <div class="row project-gallery-item">
+                        <div class="mix col-md-6 col-lg-4 gallery-item cat-1 cat-3">
+                            <a href="project1.html" class="gallery-item-content pp">
+                                <div class="item-thumbnail">
+                                    <img src="assets/G-2.jpg" alt="gd">
+                                    <div class="content-overlay">
+                                        <div class="content">
+                                            <h4 class="project-title">
+                                                Lineal Deodorant
+                                            </h4>
+                                            <span class="project-category">Graphic Designing</span>
+                                        </div>
                                     </div>
-                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
                                 </div>
-                                <div class="modal-body">
-                                    <p>
-                                        <u><span style="font-weight: bold"> Date & Time:</span></u><br />3rd April, 2021 10:00 AM onwards<br />
-                                        Individual Registration, No entry fee.
-                                    </p>
-                                    <p>
-                                        <u><span style="font-weight: bold">About the Event:</span></u><br />
-                                        This event will aim at giving the students a demo of what the procedure of placements is like. The event will consist of three rounds in total. The first round will be of half an hour, which will be a general aptitude test consisting of questions related to Computers, Logical reasoning, English and Mathematics. The shortlisted participants will appear for the second round which will be a group discussion. Finally, the selected participants will appear for the last personal interview round. All the winners will be rewarded with exciting prizes and goodies.
-                                    </p>
-                                    <p>
-                                        <span style="font-weight: bold"><u>Prize details:</u></span>
-                                        <br />
-                                        •	1st Prize: Rs. 800 + Certificate + Free online mock interviews from Interview Buddy + Exciting Goodies.<br />
-                                        •	2nd Prize: Rs. 400 + Certificate + Free online mock interviews from Interview Buddy + Exciting Goodies.<br />
-                                        •	Goodies to two runner ups.<br />
-                                        •	Discount vouchers to all the participants.
-                                    </p>
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-default" onclick="document.location='form1.html'"> Register Now</button>
-                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                </div>
-                            </div>
+                            </a>
                         </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-6 col-sm-9">
-
-                    <div class="mem animation" data-animation="fadeInUp" data-animation-delay="0.02s">
-                        <a href="" target="_blank" data-toggle="modal" data-target="#poster2" class="mem-image">
-                            <img src="admin/upload/coding_event-01.png" />
-                        </a>
-                        <hr />
-                        <div align="center">
-                            <a href="" class="mem-name" target="_blank" data-toggle="modal"
-                               data-target="#poster2"><strong>View More</strong></a>
-                        </div>
-                    </div>
-
-                    <div id="poster2" class="modal" role="dialog">
-                        <div class="modal-dialog modal-lg">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <div>
-                                        <h3 id="mem-name"><strong>CODE-A-THON</strong></h3>
+                        <div class="mix col-md-6 col-lg-4 gallery-item  cat-3 cat-4">
+                            <a href="ajax/portfolio-ajax-project-1.html" class="gallery-item-content pp">
+                                <div class="item-thumbnail">
+                                    <img src="assets/images/2.jpg" alt="">
+                                    <div class="content-overlay">
+                                        <div class="content">
+                                            <h4 class="project-title">
+                                                Project Title
+                                            </h4>
+                                            <span class="project-category">Marketing</span>
+                                        </div>
                                     </div>
-                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
                                 </div>
-                                <div class="modal-body">
-                                    <p>
-                                        <span style="font-weight: bold"><u>Event Date & Time:</u></span><br />3rd April, 2021 12:30 PM onwards<br />
-                                        Individual Registration, No entry fee.<br />
-                                        <span style="font-weight: bold">Participants need to register first on our website. After successful registration, they will be redirected to the event platform i.e. PrepBytes, where they need to reegister again.</span>
-                                    </p>
-                                    <p>
-                                        <span style="font-weight: bold"><u>About the Event:</u></span><br />
-                                        Code-A-Thon is a coding event where each participant will experience the fun of an online coding event at the comfort of their home. The event will be hosted on PrepBytes. So, get ready to enhance your coding skills and grab exciting prizes.
-                                    </p>
-                                    <p>
-                                        <span style="font-weight: bold"><u>Prize details:</u></span>
-                                        <br />
-                                        •	1st Prize: Rs. 800 + Certificate + Free online course wroth Rs.2500 + Exciting Goodies.<br />
-                                        •	2nd Prize: Rs. 400 + Certificate + Free online course wroth Rs.2000 + Exciting Goodies.<br />
-                                        •	3rd Prize: Certificate + Free online course wroth Rs.2000 + Exciting Goodies.<br />
-                                        •	Goodies to two runner ups.<br />
-                                        •	Discount vouchers to all the participants.
-                                    </p>
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-default" onclick="document.location='form2.html'"> Register Now</button>
-                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                </div>
-                            </div>
+                            </a>
                         </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-6 col-sm-9">
-
-                    <div class="mem animation" data-animation="fadeInUp" data-animation-delay="0.02s">
-                        <a href="" target="_blank" data-toggle="modal" data-target="#poster3" class="mem-image">
-                            <img src="admin/upload/treasurehunt-01.png" />
-                        </a>
-                        <hr />
-
-                        <div align="center">
-                            <a href="" class="mem-name" target="_blank" data-toggle="modal"
-                               data-target="#poster3"><strong>View More</strong></a>
-                        </div>
-                    </div>
-
-                    <div id="poster3" class="modal" role="dialog">
-                        <div class="modal-dialog modal-lg">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <div>
-                                        <h3 id="mem-name"><strong>TECH LABYRINTH</strong></h3>
+                        <div class="mix col-md-6 col-lg-4 gallery-item cat-2 cat-1">
+                            <a href="ajax/portfolio-ajax-project-3.html" class="gallery-item-content pp">
+                                <div class="item-thumbnail">
+                                    <img src="assets/images/3.jpg" alt="">
+                                    <div class="content-overlay">
+                                        <div class="content">
+                                            <h4 class="project-title">
+                                                Project Title
+                                            </h4>
+                                            <span class="project-category">Marketing</span>
+                                        </div>
                                     </div>
-                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
                                 </div>
-                                <div class="modal-body">
-                                    <p>
-                                        <span style="font-weight: bold"><u>Event Date & Time:</u></span><br />3rd April, 2021 4:00 PM onwards<br />
-                                        Registration in teams of 2 members (Only one member has to register on behalf of the pair.), No entry fee.
-                                    </p>
-                                    <p>
-                                        <span style="font-weight: bold"><u>About the Event:</u></span><br />
-                                        Tech Labyrinth is going to be a one of its kind Treasure Hunt where multiple teams of two individuals shall compete to traverse through Instagram in search of the ‘key code’ to the hunt. Each team will comprise of two members. In this quest, they shall be helped by various clues that they shall find on each step of the labyrinth which will lead them to the next clues. So, get ready to crack codes, run algorithms, backtrack through dead ends and compete in this Labyrinth with other teams and get exciting prizes.
-                                    </p>
-                                    <p>
-                                        <span style="font-weight: bold"><u>Prize details:</u></span>
-                                        <br />
-                                        •	1st Prize: Rs. 1000 + Certificate + Free online courses worth Rs. 2500 each + Exciting Goodies.<br />
-                                        •	2nd Prize: Certificate + Free online courses worth Rs. 2000 each.<br />
-                                        •	Discount vouchers to all the participants.
-                                    </p>
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-default" onclick="document.location='form3.html'"> Register Now</button>
-                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                </div>
-                            </div>
+                            </a>
                         </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-6 col-sm-9">
-
-                    <div class="mem animation" data-animation="fadeInUp" data-animation-delay="0.02s">
-                        <a href="" target="_blank" data-toggle="modal" data-target="#poster4" class="mem-image">
-                            <img src="admin/upload/quiz bg2-01.png" />
-                        </a>
-                        <hr />
-                        <div align="center">
-                            <a href="" class="mem-name" target="_blank" data-toggle="modal"
-                               data-target="#poster4"><strong>View More</strong></a>
-                        </div>
-                    </div>
-
-                    <div id="poster4" class="modal" role="dialog">
-                        <div class="modal-dialog modal-lg">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <div>
-                                        <h3 id="mem-name"><strong>QUIZZARDS OF TECH</strong></h3>
+                        <div class="mix col-md-6 col-lg-4 gallery-item cat-1 cat-3">
+                            <a href="ajax/portfolio-ajax-project-1.html" class="gallery-item-content pp">
+                                <div class="item-thumbnail">
+                                    <img src="assets/images/4.jpg" alt="">
+                                    <div class="content-overlay">
+                                        <div class="content">
+                                            <h4 class="project-title">
+                                                Project Title
+                                            </h4>
+                                            <span class="project-category">Marketing</span>
+                                        </div>
                                     </div>
-                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
                                 </div>
-                                <div class="modal-body">
-                                    <p>
-                                        <span style="font-weight: bold"><u>Event Date & Time:</u></span><br />3rd April, 2021 2:30 PM onwards<br />
-                                        Individual Registration, No entry fee.
-                                    </p>
-                                    <p>
-                                        <span style="font-weight: bold"><u>About the Event:</u></span><br />
-                                        Quizzards of Tech is a quizzing event that will have questions related to different fields of technology. The event consists of two rounds in total. The first round will be of 15 minutes, which will be a coding and technology related MCQ test. The second round i.e., the final round, will be a rapid-fire round of 30 minutes with some interesting twists & turns. Winners will get a chance to win exciting prizes!
-
-                                    </p>
-                                    <p>
-                                        <span style="font-weight: bold"><u>Prize details:</u></span>
-                                        <br />
-                                        •	1st Prize: Rs. 750 + Certificate + Free online course worth Rs. 2500+ Exciting Goodies.<br />
-                                        •	2nd Prize: Rs. 500 + Certificate + Free online course worth Rs. 2000+ Exciting Goodies.<br />
-                                        •	3rd Prize: Rs. 250 + Certificate + Free online course worth Rs. 2000 + Exciting Goodies.<br />
-                                        •	Goodies to two runner ups.<br />
-                                        •	Discount vouchers to all the participants.
-                                    </p>
+                            </a>
+                        </div>
+                        <div class="mix col-md-6 col-lg-4 gallery-item cat-3 cat-4">
+                            <a href="ajax/portfolio-ajax-project-2.html" class="gallery-item-content pp">
+                                <div class="item-thumbnail">
+                                    <img src="assets/images/5.jpg" alt="">
+                                    <div class="content-overlay">
+                                        <div class="content">
+                                            <h4 class="project-title">
+                                                Project Title
+                                            </h4>
+                                            <span class="project-category">Marketing</span>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-default" onclick="document.location='form4.html'"> Register Now</button>
-                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </a>
+                        </div>
+                        <div class="mix col-md-6 col-lg-4 gallery-item cat-1 cat-2">
+                            <a href="ajax/portfolio-ajax-project-3.html" class="gallery-item-content pp">
+                                <div class="item-thumbnail">
+                                    <img src="assets/images/6.jpg" alt="">
+                                    <div class="content-overlay">
+                                        <div class="content">
+                                            <h4 class="project-title">
+                                                Project Title
+                                            </h4>
+                                            <span class="project-category">Marketing</span>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
+                            </a>
+                        </div>
+                        <div class="mix col-md-6 col-lg-4 gallery-item cat-4 cat-2">
+                            <a href="ajax/portfolio-ajax-project-1.html" class="gallery-item-content pp">
+                                <div class="item-thumbnail">
+                                    <img src="assets/images/7.jpg" alt="">
+                                    <div class="content-overlay">
+                                        <div class="content">
+                                            <h4 class="project-title">
+                                                Project Title
+                                            </h4>
+                                            <span class="project-category">Marketing</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="mix col-md-6 col-lg-4 gallery-item cat-3 cat-2">
+                            <a href="ajax/portfolio-ajax-project-2.html" class="gallery-item-content pp">
+                                <div class="item-thumbnail">
+                                    <img src="assets/images/8.jpg" alt="">
+                                    <div class="content-overlay">
+                                        <div class="content">
+                                            <h4 class="project-title">
+                                                Project Title
+                                            </h4>
+                                            <span class="project-category">Marketing</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="mix col-md-6 col-lg-4 gallery-item cat-3 cat-1">
+                            <a href="ajax/portfolio-ajax-project-3.html" class="gallery-item-content pp">
+                                <div class="item-thumbnail">
+                                    <img src="assets/images/9.jpg" alt="">
+                                    <div class="content-overlay">
+                                        <div class="content">
+                                            <h4 class="project-title">
+                                                Project Title
+                                            </h4>
+                                            <span class="project-category">Marketing</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>-->
+    </section>
+
 
     <section id="contact" style=" background: linear-gradient( #003153, #4e6c86);" class="contact contact-info-area section-padding  section-bg">
         <div class="container ">
@@ -954,12 +909,19 @@
 
     <script src="src\js\JavaScript1.js"></script>
     <script src="src\js\JavaScript2.js"></script>
+    <script src="src\js\owl.carousel.min.js"></script>
+    <script src="src\js\bootstrap.min.js"></script>
+    <script src="src\js\jquery.js"></script>
+    <script src="src\js\main.js"></script>
+    <script src="src\js\mixitup.min.js"></script>
+    <script src="src\js\typed.js"></script>
+    <script src="src\js\magnific-popup.js"></script>
     <!---- <script src="src\js\main.js"></script>
-     <script src="src\js\typed.js"></script>
-     <script src="src\js\bootstap.min.js"></script>
-     <script src="src\js\jquery.js"></script>
+     <script src="src\js\typed.js"></script>.
+     <script src="src\js\bootstap.min.js"></script>.
+     <script src="src\js\jquery.js"></script>.
      <script src="src\js\mixitup.min.js"></script>
-     <script src="src\js\owl.carousel.min.js"></script>-->
+     <script src="src\js\owl.carousel.min.js"></script>.-->
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
     <script src="https://kit.fontawesome.com/24a476b79d.js" crossorigin="anonymous"></script>
 </body>

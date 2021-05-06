@@ -139,7 +139,7 @@ $(function ($) {
 
   $(window).on('load', function () {
     /*Preloader*/
-    var preLoder = $("#preloader");
+    var preLoder = $("#preloader2");
     preLoder.addClass('hide');
   });
 
