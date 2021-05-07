@@ -101,6 +101,10 @@ h1 {
     color: white;
 }
 
+.header-area h3{
+    color:white;
+}
+
 /*button styling*/
 .mybtn {
     padding: 8px 30px;
