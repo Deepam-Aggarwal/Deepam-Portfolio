@@ -273,8 +273,8 @@ h1 {
     font-size: 16px;
     line-height: 26px;
     font-family: 'Josefin Sans', sans-serif;
-    color: #fff;
-    text-transform: uppercase;
+    color: #fff !important;
+    text-transform: uppercase !important;
 }
 
 .skill-area .skill-list .single-skill {
@@ -286,8 +286,8 @@ h1 {
     }
 
     .skill-area .skill-list .single-skill .progress {
-        height: 15px;
-        border-radius: 0px;
+        height: 15px !important;
+        border-radius: 0px !important;
         background: #454d71 !important;
     }
 
@@ -296,23 +296,23 @@ h1 {
 }
 
 .skill-area-circle .skill-list {
-    display: -webkit-box;
+    display: -webkit-box ;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap ;
+    flex-wrap: wrap ;
 }
 
     .skill-area-circle .skill-list .single-skill {
-        margin-bottom: 19px !important;
-        display: inline-block !important;
-        -webkit-box-flex: 50% !important;
-        -ms-flex: 50% !important;
-        flex: 50% !important;
-        width: 50% !important;
-        padding-left: 10px !important;
-        padding-right: 10px !important;
-        text-align: center !important;
+        margin-bottom: 19px ;
+        display: inline-block ;
+        -webkit-box-flex: 50% ;
+        -ms-flex: 50%;
+        flex: 50% ;
+        width: 50% ;
+        padding-left: 10px ;
+        padding-right: 10px ;
+        text-align: center ;
     }
 
 .skill-area-line .skill-box {
@@ -344,60 +344,60 @@ h1 {
             }
 
 .progress-circle {
-    position: relative !important;
-    height: 100px !important;
-    width: 100px !important;
-    display: inline-block !important;
+    position: relative ;
+    height: 100px ;
+    width: 100px;
+    display: inline-block;
 }
 
     .progress-circle div {
-        position: absolute !important;
-        height: 100px !important;
-        width: 100px !important;
-        border-radius: 50% !important;
+        position: absolute;
+        height: 100px;
+        width: 100px ;
+        border-radius: 50%;
     }
 
         .progress-circle div span {
-            position: absolute !important;
-            font-size: 18px !important;
-            font-weight: 600 !important;
-            line-height: 85px !important;
-            height: 80px !important;
-            width: 80px !important;
-            left: 10px !important;
-            top: 10px !important;
-            text-align: center !important;
-            border-radius: 50% !important;
-            background-color: #252c48 !important;
-            color: #fff !important;
+            position: absolute ;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 85px;
+            height: 80px;
+            width: 80px;
+            left: 10px;
+            top: 10px;
+            text-align: center ;
+            border-radius: 50% ;
+            background-color: #252c48;
+            color: white;
             font-family: 'Josefin Sans', sans-serif !important;
         }
 
     .progress-circle .background {
-        background: #454d71 !important;
+        background: #454d71;
     }
 
     .progress-circle .rotate {
-        clip: rect(0 50px 100px 0) !important;
-        background-color: #4c84ff !important;
+        clip: rect(0 50px 100px 0) ;
+        background-color: #4c84ff;
     }
 
     .progress-circle .right {
-        background-color: #4c84ff !important;
+        background-color: #4c84ff;
     }
 
     .progress-circle .left {
-        clip: rect(0 50px 100px 0) !important;
-        opacity: 1 !important;
-        background-color: #b3cef6 !important;
+        clip: rect(0 50px 100px 0) ;
+        opacity: 1 ;
+        background-color: #b3cef6;
     }
 
     .progress-circle .right {
-        clip: rect(0 50px 100px 0) !important;
-        -webkit-transform: rotate(180deg) !important;
-        -ms-transform: rotate(180deg) !important;
-        transform: rotate(180deg) !important;
-        opacity: 0 !important;
+        clip: rect(0 50px 100px 0);
+        -webkit-transform: rotate(180deg) ;
+        -ms-transform: rotate(180deg) ;
+        transform: rotate(180deg);
+        opacity: 0;
     }
 
 #eduandex .title {

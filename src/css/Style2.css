@@ -1178,43 +1178,56 @@
         font-weight: 200;
         cursor: pointer;
     }
+  
 }
+@media (max-width: 1199px) {
 
-@media(min-width: 600px) {
-    td:nth-of-type(odd):before,
-    td:nth-of-type(even):before,
-    td:nth-of-type(odd):after,
-    td:nth-of-type(even):after {
-        content: "";
-    }
-
-    thead tr {
-        position: static;
-    }
-
-    thead, tbody {
-        display: table-row-group;
-    }
-
-    th, td {
-        display: table-cell;
-    }
-
-    tr {
-        display: table-row;
-    }
-
-    table {
-        display: table;
+    .portfolio-category li a {
+        display: inline-block;
     }
 }
 
-@media (max-width: 991px) {
-    .home-page-form {
-        margin-bottom: 30px;
+    @media (max-width: 767px) {
+        .project-gallery .project-gallery-filter .project-gallery-menu .filter {
+            margin: 3px 5px;
+        }
     }
-}
-/*Advisory Members
+
+    @media(min-width: 600px) {
+        td:nth-of-type(odd):before,
+        td:nth-of-type(even):before,
+        td:nth-of-type(odd):after,
+        td:nth-of-type(even):after {
+            content: "";
+        }
+
+        thead tr {
+            position: static;
+        }
+
+        thead, tbody {
+            display: table-row-group;
+        }
+
+        th, td {
+            display: table-cell;
+        }
+
+        tr {
+            display: table-row;
+        }
+
+        table {
+            display: table;
+        }
+    }
+
+    @media (max-width: 991px) {
+        .home-page-form {
+            margin-bottom: 30px;
+        }
+    }
+    /*Advisory Members
 @media only screen and (max-width: 450px)
 {
 	.mem-image img{
