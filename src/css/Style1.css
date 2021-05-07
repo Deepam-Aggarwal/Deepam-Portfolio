@@ -104,7 +104,9 @@ h1 {
 .header-area h3{
     color:white;
 }
-
+.project-details-info h5 , .project-details-info p{
+    color:white;
+}
 /*button styling*/
 .mybtn {
     padding: 8px 30px;
