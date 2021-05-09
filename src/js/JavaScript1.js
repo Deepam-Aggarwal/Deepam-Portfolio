@@ -12196,7 +12196,7 @@ jQuery(document).ready(function ($) {
     }, 350);
 });
 
-/*Event header */
+/*Event header 
 $('.owl-carousel').owlCarousel({
     loop: true,
     margin: 10,
@@ -12218,4 +12218,4 @@ $('.owl-carousel').owlCarousel({
             items: 3
         }
     }
-})
+})*/
