@@ -2935,9 +2935,9 @@ section.my-founder {
         background-color: #FFBC09;
     }
 
-.course_categories.owl-theme .owl-nav.disabled + .owl-dots {
+/*.course_categories.owl-theme .owl-nav.disabled + .owl-dots {
     margin-top: 25px;
-}
+}*/
 /*===================================*
   05.END COURSE CATEGORIES SECTION
 *===================================*/
@@ -3621,7 +3621,7 @@ i.fb-icon {
     visibility: visible;
 }
 
-.grid_container .owl-carousel.owl-theme .owl-dots {
+.grid_container {
     margin: 0 !important;
     position: absolute;
     bottom: 5px;
@@ -3629,26 +3629,26 @@ i.fb-icon {
     z-index: 9;
 }
 
-.grid_container .owl-carousel {
+.grid_container  {
     z-index: inherit;
 }
 
-    .grid_container .owl-carousel.owl-theme .owl-dots span {
+    .grid_container  {
         margin: 5px 2px;
     }
 
-.owl-theme .owl-dots .owl-dot span {
+/*.owl-theme .owl-dots .owl-dot span {
     background-color: transparent;
     border: 1px solid #9a9a9a;
     margin: 5px;
-}
+}*/
 
-.dots_white.owl-theme .owl-dots .owl-dot.active span, .dots_white.owl-theme .owl-dots .owl-dot:hover span {
+.dots_white .active span, .dots_white:hover span {
     background-color: #fff;
     border-color: #fff;
 }
 
-.dots_white.owl-theme .owl-dots .owl-dot span {
+.dots_white{
     border-color: #fff;
 }
 
@@ -3672,7 +3672,7 @@ i.fb-icon {
 /*===================================*
   14.START ELEMENT DESIGN
 *===================================*/
-.owl-theme .owl-nav {
+/*.owl-theme .owl-nav {
     margin-top: 0;
 }
 
@@ -3728,7 +3728,7 @@ i.fb-icon {
 .nav_style1.owl-theme:hover .owl-nav .owl-next {
     right: 0px;
     opacity: 1;
-}
+}*/
 
 .video_play {
     position: absolute;
@@ -4015,7 +4015,7 @@ i.fb-icon {
         width: 100%;
     }
 
-.cl_logo_slider.owl-carousel .owl-item img {
+.cl_logo_slider {
     margin: 0 auto;
     width: auto;
     opacity: 0.7;
@@ -5452,80 +5452,6 @@ a .flex-container {
     margin: 10px 0 10px 0;
 }
 
-/*Event header*/
-.carousel-wrap {
-    margin: 50px auto;
-    padding: 0 5%;
-    width: 93%;
-    position: relative;
-}
-
-/* fix blank or flashing items on carousel */
-.owl-carousel .item {
-    position: relative;
-    height: 40%;
-    width: 95%;
-    z-index: 100;
-    margin: 10px;
-    border: solid 2px gray;
-    border-radius: 3%;
-    padding: 10px;
-    box-shadow: 2px 4px 9px rgb(208, 202, 202);
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-}
-
-/* end fix */
-.owl-nav > div {
-    margin-top: -30px;
-    position: absolute;
-    top: 50%;
-    color: #C1C1C1;
-}
-
-.owl-nav i {
-    font-size: 52px;
-}
-
-.owl-nav .owl-prev {
-    left: -30px;
-}
-
-.owl-nav .owl-next {
-    right: -30px;
-}
-
-@media only screen and (max-width:450px) {
-    .owl-carousel .item {
-        position: relative;
-        height: 50%;
-        width: 95%;
-        z-index: 100;
-        margin: 10px;
-        border: solid 2px gray;
-        padding: 10px;
-        border-radius: 3%;
-        box-shadow: 2px 4px 9px rgb(208, 202, 202);
-        -webkit-backface-visibility: hidden;
-        backface-visibility: hidden;
-    }
-}
-
-@media only screen and (min-width:500px) and (max-width:800px) {
-    .owl-carousel .item {
-        position: relative;
-        height: 40%;
-        width: 95%;
-        z-index: 100;
-        margin: 10px;
-        border: solid 2px gray;
-        padding: 10px;
-        border-radius: 3%;
-        box-shadow: 2px 4px 9px rgb(208, 202, 202);
-        -webkit-backface-visibility: hidden;
-        backface-visibility: hidden;
-    }
-}
 
 .media-featured {
     position: relative;
