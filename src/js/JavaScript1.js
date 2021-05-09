@@ -11837,6 +11837,7 @@ $(window).load(function () { // makes sure the whole site is loaded
                         },
                         1199: {
                             items: 4
+
                         }
                     }
                 });
