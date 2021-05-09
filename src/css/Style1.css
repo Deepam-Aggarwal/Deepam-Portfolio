@@ -107,7 +107,7 @@ h1 {
 .project-details-info h5 , .project-details-info p{
     color:white;
 }
-.info-list ul{
+.info-list li{
     list-style-type:none;
 }
 /*button styling*/
