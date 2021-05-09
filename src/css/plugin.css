@@ -155,7 +155,8 @@ button::-moz-focus-inner {
     top: 1px; }
 
 .mfp-close-btn-in .mfp-close {
-  color: #333; }
+    color: #e9ecef;
+}
 
 .mfp-image-holder .mfp-close,
 .mfp-iframe-holder .mfp-close {
