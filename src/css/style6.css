@@ -166,7 +166,7 @@ ul li {
 .mfp-zoom-in.mfp-removing.mfp-bg {
   opacity: 0;
 }
-====== Zoom-out effect ======
+/*====== Zoom-out effect ======
 
 */
 .mfp-zoom-out {
