@@ -3629,13 +3629,13 @@ i.fb-icon {
     z-index: 9;
 }
 
-.grid_container  {
+.grid_container {
     z-index: inherit;
 }
 
-    .grid_container  {
-        margin: 5px 2px;
-    }
+.grid_container {
+    margin: 5px 2px;
+}
 
 /*.owl-theme .owl-dots .owl-dot span {
     background-color: transparent;
@@ -3648,7 +3648,7 @@ i.fb-icon {
     border-color: #fff;
 }
 
-.dots_white{
+.dots_white {
     border-color: #fff;
 }
 
