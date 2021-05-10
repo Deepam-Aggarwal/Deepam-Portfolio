@@ -560,11 +560,11 @@
         padding: 30px 0;
     }
 
-    .nav_style1 {
+    .nav_style1.owl-theme .owl-nav .owl-next {
         right: 0;
     }
 
-    .nav_style1{
+    .nav_style1.owl-theme .owl-nav .owl-prev {
         left: 0;
     }
 
