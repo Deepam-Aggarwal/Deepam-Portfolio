@@ -2935,9 +2935,9 @@ section.my-founder {
         background-color: #FFBC09;
     }
 
-/*.course_categories.owl-theme .owl-nav.disabled + .owl-dots {
+.course_categories.owl-theme .owl-nav.disabled + .owl-dots {
     margin-top: 25px;
-}*/
+}
 /*===================================*
   05.END COURSE CATEGORIES SECTION
 *===================================*/
@@ -5621,7 +5621,7 @@ div.media-featured:hover {
 
 .c-faq {
     font-family: "Varela Round", sans-serif;
-    list-style-type: style disc;
+    list-style-type:disc;
 }
 
 .c-faqs__headline {
