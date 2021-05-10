@@ -3678,7 +3678,7 @@ i.fb-icon {
 /*===================================*
   14.START ELEMENT DESIGN
 *===================================*/
-.owl-theme .owl-nav {
+/*.owl-theme .owl-nav {
     margin-top: 0;
 }
 
@@ -3734,7 +3734,7 @@ i.fb-icon {
 .nav_style1.owl-theme:hover .owl-nav .owl-next {
     right: 0px;
     opacity: 1;
-}
+}*/
 
 .video_play {
     position: absolute;
