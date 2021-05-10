@@ -5472,7 +5472,7 @@ a .flex-container {
     position: relative;
 }
 
-/* fix blank or flashing items on carousel */
+/* fix blank or flashing items on carousel 
 .owl-carousel .item {
     position: relative;
     height: 40%;
@@ -5485,9 +5485,9 @@ a .flex-container {
     box-shadow: 2px 4px 9px rgb(208, 202, 202);
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-}
+}*/
 
-/* end fix */
+/* end fix 
 .owl-nav > div {
     margin-top: -30px;
     position: absolute;
@@ -5539,7 +5539,7 @@ a .flex-container {
         -webkit-backface-visibility: hidden;
         backface-visibility: hidden;
     }
-}
+}*/
 
 .media-featured {
     position: relative;
