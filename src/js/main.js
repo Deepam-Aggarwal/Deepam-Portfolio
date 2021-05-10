@@ -3,7 +3,7 @@ $(function ($) {
 
   jQuery(document).ready(function () {
 
-    $(".toggle-icon").on("click", function () {
+    /*$(".toggle-icon").on("click", function () {
       $(".my-navbar").toggleClass("show");
       $(".mainmenu-area").toggleClass("show");
     });
@@ -32,7 +32,7 @@ $(function ($) {
         $(".my-navbar .mynav-item .portfolio").addClass("active");
         $(".project-gallery").addClass("active");
       }
-    });
+    });*/
 
     //Mixitup js
     $(".project-gallery").mixItUp();
