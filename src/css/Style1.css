@@ -186,9 +186,7 @@ h1 {
 
 .mybtn-bg {
     background: #4c84ff;
-    ;
     border-color: #4c84ff;
-    ;
     color: #fff;
 }
 
@@ -211,24 +209,24 @@ h1 {
 
     .mybtn-light span {
         color: #4c84ff;
-        ;
+        
     }
 
 .mybtn-bord {
     background: transparent;
     border: 1px solid #4c84ff;
-    ;
+    
 }
 
     .mybtn-bord:before,
     .mybtn-bord:after {
         background: #4c84ff;
-        ;
+        
     }
 
     .mybtn-bord:hover {
         border-color: #4c84ff;
-        ;
+        
     }
 
         .mybtn-bord:hover span {
@@ -1460,11 +1458,11 @@ section#contact {
     }
 
     .form-control::placeholder {
-        color: #94a2c6 !important !important;
+        color: #94a2c6 !important ;
     }
 
     .form-control::-webkit-placeholder {
-        color: #94a2c6 !important !important;
+        color: #94a2c6 !important ;
     }
 
     .form-control::-moz-placeholder {
