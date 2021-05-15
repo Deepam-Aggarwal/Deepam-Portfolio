@@ -80,7 +80,7 @@ body {
 
     .card1 a {
         font-size: 250% !important;
-        color: black !important;
+        color: violet !important;
         padding: 10px !important;
         text-decoration: none !important;
     }
@@ -88,7 +88,7 @@ body {
         .card1 a:hover {
             border: 1px solid black !important;
             box-shadow: 2px 2px 5px 1px !important;
-            color: brown !important;
+            color:lightgreen !important;
         }
 h1 {
     font-family: 'Josefin Sans', sans-serif !important;
