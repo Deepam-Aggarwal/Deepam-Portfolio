@@ -51,9 +51,9 @@
                 <li class="dropdown">
                     <a class=" nav-link" href="#education">EDUCATION</a>
                 </li>
-                <li class="dropdown">
+                <!---<li class="dropdown">
                     <a class=" nav-link" href="#lc">LICENSE AND CERTIFICATIONS</a>
-                </li>
+                </li>-->
                 <li class="dropdown">
                     <a class=" nav-link" href="#skills">SKILLS</a>
                 </li>
@@ -91,7 +91,7 @@
                     <div class="col-md-12">
                         <div class="text-center animation" data-animation="fadeInUp" data-animation-delay="0.01s">
                             <div class="heading_s1 text-center">
-                                <h1 style="color: #fff; ">About Me</h1>
+                                <h1 class="textc"style="color: #fff; ">About Me</h1>
                             </div>
                         </div>
                         <div class="row">
@@ -144,7 +144,7 @@
                 <div class="col-md-12">
                     <div class="text-center animation" data-animation="fadeInUp" data-animation-delay="0.01s">
                         <div class="heading_s1 text-center">
-                            <h1 style="color: #fff;">
+                            <h1 class="textc"style="color: #fff;">
                                 Education
                             </h1>
                         </div>
@@ -169,7 +169,7 @@
                                             <td>Institute of Innovation in Technology & Management</td>
                                             <td>Bachelor of Computer Application (BCA)</td>
                                             <td>2019-2022</td>
-                                            <td>8.426</td>
+                                            <td>8.899</td>
                                             <td><ul style="list-style-type:none"><li>Taken training of Machine Learning and Artificial Intelligence.</li></ul></td>
                                         </tr>
                                         <tr>
@@ -225,7 +225,7 @@
                 <div class="col-md-12">
                     <div class="text-center animation" data-animation="fadeInUp" data-animation-delay="0.01s">
                         <div class="heading_s1 text-center">
-                            <h1 style="color: #fff; ">Experience</h1>
+                            <h1 class="textc"style="color: #fff; ">Experience</h1>
                         </div>
                     </div>
                     <div class="tcol-lg-6 animation" data-animation="fadeInLeft"
@@ -287,7 +287,7 @@
                 <div class="col-md-12">
                     <div class="text-center animation" data-animation="fadeInUp" data-animation-delay="0.01s">
                         <div class="heading_s1 text-center">
-                            <h1 style="color: #fff; ">Volunteer Experience</h1>
+                            <h1 class="textc" style="color: #fff; ">Volunteer Experience</h1>
                         </div>
                     </div>
                     <div class="tcol-lg-6 animation" data-animation="fadeInLeft"
@@ -389,7 +389,7 @@
                 <div class="col-md-12">
                     <div class="text-center animation" data-animation="fadeInUp" data-animation-delay="0.01s">
                         <div class="heading_s1 text-center">
-                            <h1 style="color: #fff; ">Skills</h1>
+                            <h1 class="textc" style="color: #fff; ">Skills</h1>
                         </div>
                     </div>
                     <div class="tcol-lg-6 animation" data-animation="fadeInLeft"
@@ -634,7 +634,7 @@
             <div class="row">
                 <div class="col-sm-6 col-lg-12  align-items-center">
                     <div class="page-title animation" data-animation="fadeInUp" data-animation-delay="0.02s">
-                        <h1 style="color: #fff;" align="center">Portfolio</h1>
+                        <h1 class="textc" style="color: #fff;" align="center">Portfolio</h1>
                     </div>
                 </div>
             </div>
@@ -645,15 +645,15 @@
                     <div class="project-gallery-filter d-flex justify-content-center">
                         <ul class="project-gallery-menu d-inline-block">
                             <li class="filter active" data-filter="all">All</li>
-                            <li class="filter" data-filter=".cat-1">Marketing</li>
-                            <li class="filter" data-filter=".cat-2">Visualization</li>
-                            <li class="filter" data-filter=".cat-3">Graphic Designing</li>
-                            <li class="filter" data-filter=".cat-4">Application Development</li>
-                            <li class="filter" data-filter=".cat-5">Website Development</li>
+                            <li class="filter" data-filter="1">Marketing</li>
+                            <li class="filter" data-filter="2">Visualization</li>
+                            <li class="filter" data-filter="3">Graphic Designing</li>
+                            <li class="filter" data-filter="4">Application Development</li>
+                            <li class="filter" data-filter="5">Website Development</li>
                         </ul>
                     </div>
                     <div class="row project-gallery-item">
-                        <div class="mix col-md-6 col-lg-4 gallery-item cat-1 cat-3">
+                        <div class="mix col-md-6 col-lg-4 gallery-item cat-1 cat-3" data-category="1">
                             <a href="project1.html" class="gallery-item-content pp">
                                 <div class="item-thumbnail">
                                     <img src="assets/G-2.jpg" alt="gd">
@@ -668,7 +668,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="mix col-md-6 col-lg-4 gallery-item  cat-2">
+                        <div class="mix col-md-6 col-lg-4 gallery-item  cat-2" data-category="2">
                             <a href="project2.html" class="gallery-item-content pp">
                                 <div class="item-thumbnail">
                                     <img src="assets/t-1.png" alt="vis" height="350">
@@ -683,7 +683,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="mix col-md-6 col-lg-4 gallery-item cat-1">
+                        <div class="mix col-md-6 col-lg-4 gallery-item cat-1" data-category="1">
                             <a href="project3.html" class="gallery-item-content pp">
                                 <div class="item-thumbnail">
                                     <img src="assets/P-1.jpg" alt="ppt" height="350">
@@ -698,7 +698,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="mix col-md-6 col-lg-4 gallery-item cat-2">
+                        <div class="mix col-md-6 col-lg-4 gallery-item cat-2" data-category="2">
                             <a href="project4.html" class="gallery-item-content pp">
                                 <div class="item-thumbnail">
                                     <img src="assets/t-2.jpg" alt="vis" height="350">
@@ -713,7 +713,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="mix col-md-6 col-lg-4 gallery-item cat-2">
+                        <div class="mix col-md-6 col-lg-4 gallery-item cat-2" data-category="2">
                             <a href="project5.html" class="gallery-item-content pp">
                                 <div class="item-thumbnail">
                                     <img src="assets/t-3.jpg" alt="vis" height="350">
@@ -728,7 +728,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="mix col-md-6 col-lg-4 gallery-item cat-2">
+                        <div class="mix col-md-6 col-lg-4 gallery-item cat-2" data-category="2">
                             <a href="project6.html" class="gallery-item-content pp">
                                 <div class="item-thumbnail">
                                     <img src="assets/t-4.jpg" alt="vis" height="350">
@@ -743,7 +743,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="mix col-md-6 col-lg-4 gallery-item cat-4">
+                        <div class="mix col-md-6 col-lg-4 gallery-item cat-4" data-category="4">
                             <a href="project7.html" class="gallery-item-content pp">
                                 <div class="item-thumbnail">
                                     <img src="assets/t-5.jpg" alt="app" height="350">
@@ -758,7 +758,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="mix col-md-6 col-lg-4 gallery-item cat-4">
+                        <div class="mix col-md-6 col-lg-4 gallery-item cat-4" data-category="4">
                             <a href="project8.html" class="gallery-item-content pp">
                                 <div class="item-thumbnail">
                                     <img src="assets/app.jpg" alt="appsc" height="350" width="400">
@@ -773,7 +773,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="mix col-md-6 col-lg-4 gallery-item cat-5">
+                        <div class="mix col-md-6 col-lg-4 gallery-item cat-5" data-category="5">
                             <a href="project9.html" class="gallery-item-content pp">
                                 <div class="item-thumbnail">
                                     <img src="assets/web1.png" alt="web" height="350">
@@ -788,7 +788,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="mix col-md-6 col-lg-4 gallery-item cat-5">
+                        <div class="mix col-md-6 col-lg-4 gallery-item cat-5" data-category="5">
                             <a href="project10.html" class="gallery-item-content pp">
                                 <div class="item-thumbnail">
                                     <img src="assets/figma.jpg" alt="prototype" height="350">
@@ -815,7 +815,7 @@
                 <div class="col-md-12">
                     <div class="text-center animation" data-animation="fadeInUp" data-animation-delay="0.01s">
                         <div class="heading_s1 text-center">
-                            <h1 style="color: #fff; ">Contact Me</h1>
+                            <h1 class="textc" style="color: #fff; ">Contact Me</h1>
                         </div>
                     </div>
                     <!--<div class="animation" data-animation="fadeInLeft"

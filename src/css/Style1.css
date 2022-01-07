@@ -4,6 +4,13 @@ body {
     margin: 0;
     padding: 0;
 }
+.textc {
+    animation: 40s linear 0s infinite move !important;
+    background: repeating-linear-gradient(45deg, #041427, #EEC969 30px, #041427 60px) !important;
+    color: transparent !important;
+    -webkit-background-clip: text !important;
+    background-clip: text !important;
+}
 
 .hero {
     position: relative;
@@ -1630,7 +1637,7 @@ td, th {
 }
 
 table {
-    border: 2px solid black;
+    border: 1px solid black;
     border-collapse: collapse;
 }
 
@@ -1650,11 +1657,11 @@ thead {
 }
 
 tr:nth-child(odd) {
-    background-color: #eee;
+    background-color: #EDD2F3;
 }
 
 tr:nth-child(even) {
-    background-color: lightgray;
+    background-color: #FFFCDC;
 }
 
 table caption::before {
