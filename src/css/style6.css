@@ -31,10 +31,11 @@ Table of Css Content
 
 /* Normalize  */
 html {
-  font-family: 'Open Sans', sans-serif;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  overflow-x: hidden;
+    font-family: 'Open Sans', sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 
