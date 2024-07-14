@@ -1,0 +1,21 @@
+User-agent: *
+Disallow: /
+
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Add other necessary bots here with Allow directives
+
+# Disallow all other bots
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+# Add other unwanted bots with Disallow directives
